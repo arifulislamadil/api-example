@@ -1,7 +1,19 @@
+#countries-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+
 .count{
     background-color: rgb(91, 101, 107);
     padding: 20px;
     margin-top: 10px;
     border: 5px solid rgb(127, 179, 247);
     border-radius: 20px;
+}
+
+.count button{
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    border: none;
 }
